@@ -1,0 +1,153 @@
+.parte2 {
+  border: none;
+  height: 200px;
+  width: 350px;
+  background-color: #e11515; /* azul pastel suave */
+}
+
+.parte1 {
+  display: flex;
+  gap: 25px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.parte3 {
+  background-color: #d0e50e; /* azul más intenso pero aún pastel */
+  height: 55px;
+  width: 350px;
+  gap: 25px;
+}
+
+.imagen {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  margin: 10px;
+}
+
+.dave {
+  color: #f9fbfd;
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+.ubi {
+  width: 10px;
+}
+
+.ubicacion {
+  color: #c52828;
+  margin-top: -10px;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+.gui {
+  width: 10px;
+}
+
+.perro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  font-family: sans-serif;
+  background-color: #d7181892; /* celeste pastel */
+  border: solid 2px #c63215;
+  border-radius: 10px;
+}
+
+.button,
+.mono,
+.mono1,
+.munardo {
+  background-color: #ab1b1b; /* azul pastel medio */
+  color: rgb(232, 18, 18);
+  border-radius: 3px;
+}
+
+.nya {
+  background-color: #e51d1d;
+  height: 50px;
+  width: 220px;
+  gap: 25px;
+}
+
+.nya2 {
+  border: none;
+  height: 80px;
+  width: 220px;
+  background-color: #ba3815;
+  color: white;
+}
+
+.puro {
+  color: white;
+  font-size: 14px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pepe {
+  background-color: #cd0a0a;
+  height: 50px;
+  width: 220px;
+  gap: 25px;
+}
+
+.popi {
+  border: none;
+  height: 180px;
+  width: 220px;
+  background-color: #bc2318;
+  color: rgb(218, 19, 19);
+}
+
+.ñaña {
+  background-color: #ce382a;
+  height: 50px;
+  width: 350px;
+  gap: 25px;
+}
+
+.ñiñi {
+  border: none;
+  height: 180px;
+  width: 350px;
+  background-color: #e56311;
+  color: rgb(222, 15, 15);
+}
+
+/* Botones generales */
+.color-button {
+  background-color: #e86412;
+  color: rgb(217, 21, 21);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.color-button:hover {
+  background-color: #c22b10;
+}
+
+/* Botones de likes */
+.sum-button,
+.sum-button2 {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #c92614; /* azul pastel vibrante */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sum-button:hover,
+.sum-button2:hover {
+  background-color: #c74d10;
+}
